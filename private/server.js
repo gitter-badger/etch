@@ -7,4 +7,5 @@ var express = require('express'),
 app.listen(process.env.PORT || 3000);
 
 // Set root directory
+console.log(process.cwd() + '/public');
 app.use(express.static(process.cwd() + '/public'));
