@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:700);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono';
+	color: white;
+}
+
+body {
+	background: #00b4ff;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	position: absolute;
+	width: 15%;
+	top: 0%;
+	left: calc(50% - 7.5% - 6px);
+	cursor: pointer;
+	font-size: 64px;
+	text-align: center;
+	border: 6px solid white;
+	border-top: none;
+	border-radius: 0 0 16px 16px;
+}
+
+#editor {
+	width: 15%;
+	height: 100%;
+	position: absolute;
+	border-bottom: 6px solid white;
+	top: -100%;
+	left: calc(50% - 7.5%);
+}
