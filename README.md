@@ -1,2 +1,2 @@
 # etch
-A Scratch remake
+A prorgamming web app inspired by Scratch
